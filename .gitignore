@@ -6,3 +6,5 @@
 /test-server/world_the_end
 /test-server/plugins
 /test-server/libraries
+/test-server/cache
+/test-server/versions
