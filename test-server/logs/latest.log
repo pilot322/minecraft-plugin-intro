@@ -1,0 +1,2097 @@
+[12:06:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04; Ubuntu null) on Linux 6.8.0-51-generic (amd64)
+[12:06:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-126-main@fb5b173 (2025-01-25T20:51:32Z) for Minecraft 1.21.4
+[12:06:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:06:36] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:06:36] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 502ms.
+[12:06:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:06:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:06:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:06:44] [ServerMain/INFO]: Loaded 1370 recipes
+[12:06:44] [ServerMain/INFO]: Loaded 1481 advancements
+[12:06:44] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[12:06:45] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 292.7ms
+[12:06:45] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[12:06:45] [Server thread/INFO]: Loading properties
+[12:06:45] [Server thread/INFO]: This server is running Paper version 1.21.4-126-main@fb5b173 (2025-01-25T20:51:32Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[12:06:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:06:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:06:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:06:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:06:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:06:46] [Server thread/INFO]: Default game type: SURVIVAL
+[12:06:46] [Server thread/INFO]: Generating keypair
+[12:06:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:06:47] [Server thread/INFO]: Using epoll channel type
+[12:06:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:06:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[12:06:47] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:06:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:06:47] [Server thread/INFO]: Preparing level "world"
+[12:06:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:06:47] [Server thread/INFO]: Preparing spawn area: 0%
+[12:06:48] [Server thread/INFO]: Preparing spawn area: 6%
+[12:06:48] [Server thread/INFO]: Time elapsed: 981 ms
+[12:06:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:06:48] [Server thread/INFO]: Preparing spawn area: 0%
+[12:06:48] [Server thread/INFO]: Time elapsed: 145 ms
+[12:06:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:06:48] [Server thread/INFO]: Preparing spawn area: 0%
+[12:06:48] [Server thread/INFO]: Time elapsed: 117 ms
+[12:06:48] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:48] [Server thread/INFO]: No player was found
+[12:06:49] [Server thread/INFO]: [spark] Starting background profiler...
+[12:06:49] [Server thread/INFO]: Done preparing level "world" (2.244s)
+[12:06:49] [Server thread/INFO]: Starting remote control listener
+[12:06:49] [Server thread/INFO]: Thread RCON Listener started
+[12:06:49] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[12:06:49] [Server thread/INFO]: Running delayed init tasks
+[12:06:49] [Server thread/INFO]: Done (14.924s)! For help, type "help"
+[12:06:50] [User Authenticator #0/INFO]: UUID of player pilot322 is 339c5eff-05b7-4396-9e98-90106205be07
+[12:06:51] [Server thread/INFO]: pilot322 joined the game
+[12:06:51] [Server thread/INFO]: pilot322[/37.6.159.151:58678] logged in with entity id 43 at ([world]105.50656596973981, 77.90266716538345, -6.762569610440414)
+[12:07:01] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:07:01] [Server thread/INFO]: Rcon: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:07:01] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:07:16] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:07:16] [Server thread/INFO]: Rcon: Please note that this command is not supported and may cause issues when using some plugins.
+[12:07:16] [Server thread/INFO]: Rcon: If you encounter any issues please use the /stop command to restart your server.
+[12:07:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:07:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:07:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:07:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:07:16] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:07:16] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:07:16] [Server thread/INFO]: Loaded 1370 recipes
+[12:07:16] [Server thread/INFO]: Loaded 1481 advancements
+[12:07:16] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:07:16] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:07:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 265ms.
+[12:07:17] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:07:17] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:07:17] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:07:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:07:17] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:07:17] [Server thread/INFO]: Rcon: Reload complete.
+[12:07:17] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:09:14] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:09:14] [Server thread/INFO]: Rcon: Please note that this command is not supported and may cause issues when using some plugins.
+[12:09:14] [Server thread/INFO]: Rcon: If you encounter any issues please use the /stop command to restart your server.
+[12:09:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:09:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:09:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:09:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:09:14] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:09:14] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:09:14] [Server thread/INFO]: Loaded 1370 recipes
+[12:09:14] [Server thread/INFO]: Loaded 1481 advancements
+[12:09:15] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:09:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:09:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 311ms.
+[12:09:15] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:09:15] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:09:15] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:09:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:09:15] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:09:15] [Server thread/INFO]: Rcon: Reload complete.
+[12:09:15] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:09:42] [Server thread/INFO]: pilot322 issued server command: /reload confirm
+[12:09:42] [Server thread/INFO]: pilot322: Please note that this command is not supported and may cause issues when using some plugins.
+[12:09:42] [Server thread/INFO]: pilot322: If you encounter any issues please use the /stop command to restart your server.
+[12:09:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:09:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:09:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:09:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:09:42] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:09:42] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:09:42] [Server thread/INFO]: Loaded 1370 recipes
+[12:09:42] [Server thread/INFO]: Loaded 1481 advancements
+[12:09:43] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:09:43] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:09:43] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:09:43] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:09:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:09:43] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:09:43] [Server thread/INFO]: pilot322: Reload complete.
+[12:10:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:10:59] [Server thread/INFO]: Rcon: Please note that this command is not supported and may cause issues when using some plugins.
+[12:10:59] [Server thread/INFO]: Rcon: If you encounter any issues please use the /stop command to restart your server.
+[12:10:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:10:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:10:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:10:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:10:59] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:10:59] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:10:59] [Server thread/INFO]: Loaded 1370 recipes
+[12:10:59] [Server thread/INFO]: Loaded 1481 advancements
+[12:10:59] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:10:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:11:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 214ms.
+[12:11:00] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:11:00] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:11:00] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:11:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:11:00] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:11:00] [Server thread/INFO]: Rcon: Reload complete.
+[12:11:00] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:16:21] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:16:21] [RCON Client /127.0.0.1 #6/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:16:28] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:16:28] [RCON Client /127.0.0.1 #7/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:18:27] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:18:27] [RCON Client /127.0.0.1 #8/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:18:32] [Server thread/INFO]: pilot322 issued server command: /reload
+[12:18:32] [Server thread/INFO]: pilot322: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:18:33] [Server thread/INFO]: pilot322 issued server command: /reload confirm
+[12:18:33] [Server thread/INFO]: pilot322: Please note that this command is not supported and may cause issues when using some plugins.
+[12:18:33] [Server thread/INFO]: pilot322: If you encounter any issues please use the /stop command to restart your server.
+[12:18:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:18:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:18:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:18:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:18:34] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:18:34] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:18:34] [Server thread/INFO]: Loaded 1370 recipes
+[12:18:34] [Server thread/INFO]: Loaded 1481 advancements
+[12:18:34] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:18:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:18:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 247ms.
+[12:18:34] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:18:34] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:18:34] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:18:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:18:34] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:18:34] [Server thread/INFO]: pilot322: Reload complete.
+[12:18:48] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:18:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:18:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:18:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:18:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:18:48] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:18:48] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:18:48] [Server thread/INFO]: Loaded 1370 recipes
+[12:18:48] [Server thread/INFO]: Loaded 1481 advancements
+[12:18:48] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:18:48] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:18:48] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:18:48] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:18:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:18:48] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:18:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:18:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:18:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:18:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:18:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:18:59] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:18:59] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:19:00] [Server thread/INFO]: Loaded 1370 recipes
+[12:19:00] [Server thread/INFO]: Loaded 1481 advancements
+[12:19:00] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:19:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:19:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 216ms.
+[12:19:00] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:19:00] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:19:00] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:19:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:19:00] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:19:00] [RCON Client /127.0.0.1 #9/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:19:19] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:19:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:19:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:19:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:19:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:19:19] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:19:19] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:19:19] [Server thread/INFO]: Loaded 1370 recipes
+[12:19:19] [Server thread/INFO]: Loaded 1481 advancements
+[12:19:19] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:19:19] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:19:19] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:19:19] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:19:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:19:19] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:19:21] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:19:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:19:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:19:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:19:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:19:21] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:19:21] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:19:21] [Server thread/INFO]: Loaded 1370 recipes
+[12:19:21] [Server thread/INFO]: Loaded 1481 advancements
+[12:19:21] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:19:21] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:19:21] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:19:21] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:19:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:19:21] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:19:26] [Async Chat Thread - #2/INFO]: <pilot322> huuh
+[12:19:27] [Async Chat Thread - #2/INFO]: <pilot322> huuh
+[12:19:28] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:19:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:19:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:19:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:19:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:19:28] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:19:28] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:19:28] [Server thread/INFO]: Loaded 1370 recipes
+[12:19:28] [Server thread/INFO]: Loaded 1481 advancements
+[12:19:28] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:19:28] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:19:28] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:19:28] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:19:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:19:28] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:22:33] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:22:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:22:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:22:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:22:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:22:33] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:22:33] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:22:33] [Server thread/INFO]: Loaded 1370 recipes
+[12:22:33] [Server thread/INFO]: Loaded 1481 advancements
+[12:22:33] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:22:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:22:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 127ms.
+[12:22:33] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:22:33] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:22:33] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:22:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:22:33] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:22:33] [RCON Client /127.0.0.1 #10/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:23:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:23:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:23:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:23:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:23:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:23:55] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:23:55] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:23:55] [Server thread/INFO]: Loaded 1370 recipes
+[12:23:55] [Server thread/INFO]: Loaded 1481 advancements
+[12:23:56] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:23:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:23:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 183ms.
+[12:23:56] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:23:56] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:23:56] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:23:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:23:56] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:23:56] [RCON Client /127.0.0.1 #11/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:24:01] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:24:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:24:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:24:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:24:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:24:01] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:24:01] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:24:01] [Server thread/INFO]: Loaded 1370 recipes
+[12:24:01] [Server thread/INFO]: Loaded 1481 advancements
+[12:24:01] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:24:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:24:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 205ms.
+[12:24:02] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:24:02] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:24:02] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:24:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:24:02] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:24:02] [RCON Client /127.0.0.1 #12/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:25:45] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:25:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:25:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:25:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:25:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:25:45] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:25:45] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:25:45] [Server thread/INFO]: Loaded 1370 recipes
+[12:25:45] [Server thread/INFO]: Loaded 1481 advancements
+[12:25:46] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:25:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:25:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 169ms.
+[12:25:46] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:25:46] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:25:46] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:25:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:25:46] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [Server thread/INFO]: §cwtf!
+[12:25:46] [RCON Client /127.0.0.1 #13/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:26:10] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:26:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:26:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:26:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:26:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:26:10] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:26:10] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:26:11] [Server thread/INFO]: Loaded 1370 recipes
+[12:26:11] [Server thread/INFO]: Loaded 1481 advancements
+[12:26:11] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:26:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:26:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 213ms.
+[12:26:11] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:26:11] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:26:11] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:26:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:26:11] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:26:11] [Server thread/INFO]: §cwtf!
+[12:26:11] [Server thread/INFO]: §cwtf!
+[12:26:11] [Server thread/INFO]: §cwtf!
+[12:26:11] [RCON Client /127.0.0.1 #14/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:27:05] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:27:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:27:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:27:05] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:27:05] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:27:06] [Server thread/INFO]: Loaded 1370 recipes
+[12:27:06] [Server thread/INFO]: Loaded 1481 advancements
+[12:27:06] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:27:06] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:27:06] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:27:06] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:27:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:27:06] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:27:06] [Server thread/INFO]: §cwtf!
+[12:27:06] [Server thread/INFO]: §cwtf!
+[12:27:06] [Server thread/INFO]: §cwtf!
+[12:27:20] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:27:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:20] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:27:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:27:20] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:27:20] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:27:20] [Server thread/INFO]: Loaded 1370 recipes
+[12:27:20] [Server thread/INFO]: Loaded 1481 advancements
+[12:27:20] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:27:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[12:27:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 188ms.
+[12:27:20] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:27:20] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:27:20] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:27:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:27:20] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:27:20] [Server thread/INFO]: §cwtf!
+[12:27:20] [Server thread/INFO]: §ewtf!
+[12:27:20] [Server thread/INFO]: §awtf!
+[12:27:20] [RCON Client /127.0.0.1 #15/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:27:38] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:27:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:27:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:27:38] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:27:38] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:27:38] [Server thread/INFO]: Loaded 1370 recipes
+[12:27:38] [Server thread/INFO]: Loaded 1481 advancements
+[12:27:38] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:27:38] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:27:38] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:27:38] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:27:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:27:38] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:27:38] [Server thread/INFO]: §cwtf!
+[12:27:38] [Server thread/INFO]: §ewtf!
+[12:27:38] [Server thread/INFO]: §awtf!
+[12:27:50] [Async Chat Thread - #3/INFO]: <pilot322> huuh
+[12:27:52] [Server thread/INFO]: pilot322 issued server command: /dev
+[12:27:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[12:27:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:27:52] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[12:27:52] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[12:27:53] [Server thread/INFO]: Loaded 1370 recipes
+[12:27:53] [Server thread/INFO]: Loaded 1481 advancements
+[12:27:53] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:27:53] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:27:53] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[12:27:53] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[12:27:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:27:53] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[12:27:53] [Server thread/INFO]: §cwtf!
+[12:27:53] [Server thread/INFO]: §ewtf!
+[12:27:53] [Server thread/INFO]: §awtf!
+[13:33:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:33:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:33:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:33:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:33:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:33:00] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:33:00] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:33:01] [Server thread/INFO]: Loaded 1370 recipes
+[13:33:01] [Server thread/INFO]: Loaded 1481 advancements
+[13:33:01] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:33:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:33:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 280ms.
+[13:33:01] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:33:01] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:33:01] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:33:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:33:01] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:33:01] [Server thread/INFO]: §cwtf!
+[13:33:01] [Server thread/INFO]: §ewtf!
+[13:33:01] [Server thread/INFO]: §awtf!
+[13:33:01] [RCON Client /127.0.0.1 #16/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:34:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:34:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:34:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:34:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:34:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:34:50] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:34:50] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:34:50] [Server thread/INFO]: Loaded 1370 recipes
+[13:34:50] [Server thread/INFO]: Loaded 1481 advancements
+[13:34:50] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:34:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:34:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 218ms.
+[13:34:50] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:34:50] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:34:50] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:34:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:34:50] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:34:50] [Server thread/INFO]: §cwtf!
+[13:34:50] [Server thread/INFO]: §ewtf!
+[13:34:50] [Server thread/INFO]: §awtf!
+[13:34:50] [RCON Client /127.0.0.1 #17/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:34:51] [Server thread/INFO]: §cwtf!
+[13:34:51] [Server thread/INFO]: §ewtf!
+[13:34:51] [Server thread/INFO]: §awtf!
+[13:34:52] [Server thread/INFO]: §cwtf!
+[13:34:52] [Server thread/INFO]: §ewtf!
+[13:34:52] [Server thread/INFO]: §awtf!
+[13:34:52] [Server thread/INFO]: §cwtf!
+[13:34:52] [Server thread/INFO]: §ewtf!
+[13:34:52] [Server thread/INFO]: §awtf!
+[13:34:52] [Server thread/INFO]: §cwtf!
+[13:34:52] [Server thread/INFO]: §ewtf!
+[13:34:52] [Server thread/INFO]: §awtf!
+[13:34:59] [Async Chat Thread - #5/INFO]: <pilot322> as
+[13:35:01] [Server thread/INFO]: §cwtf!
+[13:35:01] [Server thread/INFO]: §ewtf!
+[13:35:01] [Server thread/INFO]: §awtf!
+[13:35:01] [Server thread/INFO]: §cwtf!
+[13:35:01] [Server thread/INFO]: §ewtf!
+[13:35:01] [Server thread/INFO]: §awtf!
+[13:35:02] [Server thread/INFO]: §cwtf!
+[13:35:02] [Server thread/INFO]: §ewtf!
+[13:35:02] [Server thread/INFO]: §awtf!
+[13:35:07] [Async Chat Thread - #5/INFO]: <pilot322> as
+[13:35:08] [Server thread/INFO]: §cwtf!
+[13:35:08] [Server thread/INFO]: §ewtf!
+[13:35:08] [Server thread/INFO]: §awtf!
+[13:35:08] [Server thread/INFO]: §cwtf!
+[13:35:08] [Server thread/INFO]: §ewtf!
+[13:35:08] [Server thread/INFO]: §awtf!
+[13:35:10] [Server thread/INFO]: §cwtf!
+[13:35:10] [Server thread/INFO]: §ewtf!
+[13:35:10] [Server thread/INFO]: §awtf!
+[13:35:10] [Server thread/INFO]: §cwtf!
+[13:35:10] [Server thread/INFO]: §ewtf!
+[13:35:10] [Server thread/INFO]: §awtf!
+[13:35:11] [Async Chat Thread - #5/INFO]: <pilot322> as
+[13:35:12] [Server thread/INFO]: §cwtf!
+[13:35:12] [Server thread/INFO]: §ewtf!
+[13:35:12] [Server thread/INFO]: §awtf!
+[13:35:46] [Server thread/INFO]: §cwtf!
+[13:35:46] [Server thread/INFO]: §ewtf!
+[13:35:46] [Server thread/INFO]: §awtf!
+[13:36:19] [Server thread/INFO]: §cwtf!
+[13:36:19] [Server thread/INFO]: §ewtf!
+[13:36:19] [Server thread/INFO]: §awtf!
+[13:36:21] [Server thread/INFO]: §cwtf!
+[13:36:21] [Server thread/INFO]: §ewtf!
+[13:36:21] [Server thread/INFO]: §awtf!
+[13:36:22] [Server thread/INFO]: §cwtf!
+[13:36:22] [Server thread/INFO]: §ewtf!
+[13:36:22] [Server thread/INFO]: §awtf!
+[13:36:22] [Server thread/INFO]: §cwtf!
+[13:36:22] [Server thread/INFO]: §ewtf!
+[13:36:22] [Server thread/INFO]: §awtf!
+[13:36:23] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:23] [Server thread/INFO]: §cwtf!
+[13:36:23] [Server thread/INFO]: §ewtf!
+[13:36:23] [Server thread/INFO]: §awtf!
+[13:36:24] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:27] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:28] [Server thread/INFO]: §cwtf!
+[13:36:28] [Server thread/INFO]: §ewtf!
+[13:36:28] [Server thread/INFO]: §awtf!
+[13:36:32] [Server thread/INFO]: §cwtf!
+[13:36:32] [Server thread/INFO]: §ewtf!
+[13:36:32] [Server thread/INFO]: §awtf!
+[13:36:32] [Server thread/INFO]: §cwtf!
+[13:36:32] [Server thread/INFO]: §ewtf!
+[13:36:32] [Server thread/INFO]: §awtf!
+[13:36:32] [Server thread/INFO]: §cwtf!
+[13:36:32] [Server thread/INFO]: §ewtf!
+[13:36:32] [Server thread/INFO]: §awtf!
+[13:36:35] [Server thread/INFO]: §cwtf!
+[13:36:35] [Server thread/INFO]: §ewtf!
+[13:36:35] [Server thread/INFO]: §awtf!
+[13:36:35] [Server thread/INFO]: §cwtf!
+[13:36:35] [Server thread/INFO]: §ewtf!
+[13:36:35] [Server thread/INFO]: §awtf!
+[13:36:35] [Server thread/INFO]: §cwtf!
+[13:36:35] [Server thread/INFO]: §ewtf!
+[13:36:35] [Server thread/INFO]: §awtf!
+[13:36:35] [Server thread/INFO]: §cwtf!
+[13:36:35] [Server thread/INFO]: §ewtf!
+[13:36:35] [Server thread/INFO]: §awtf!
+[13:36:36] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:37] [Server thread/INFO]: §cwtf!
+[13:36:37] [Server thread/INFO]: §ewtf!
+[13:36:37] [Server thread/INFO]: §awtf!
+[13:36:38] [Server thread/INFO]: §cwtf!
+[13:36:38] [Server thread/INFO]: §ewtf!
+[13:36:38] [Server thread/INFO]: §awtf!
+[13:36:38] [Server thread/INFO]: §cwtf!
+[13:36:38] [Server thread/INFO]: §ewtf!
+[13:36:38] [Server thread/INFO]: §awtf!
+[13:36:38] [Server thread/INFO]: §cwtf!
+[13:36:38] [Server thread/INFO]: §ewtf!
+[13:36:38] [Server thread/INFO]: §awtf!
+[13:36:39] [Server thread/INFO]: §cwtf!
+[13:36:39] [Server thread/INFO]: §ewtf!
+[13:36:39] [Server thread/INFO]: §awtf!
+[13:36:39] [Server thread/INFO]: §cwtf!
+[13:36:39] [Server thread/INFO]: §ewtf!
+[13:36:39] [Server thread/INFO]: §awtf!
+[13:36:39] [Server thread/INFO]: §cwtf!
+[13:36:39] [Server thread/INFO]: §ewtf!
+[13:36:39] [Server thread/INFO]: §awtf!
+[13:36:40] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:40] [Server thread/INFO]: §cwtf!
+[13:36:40] [Server thread/INFO]: §ewtf!
+[13:36:40] [Server thread/INFO]: §awtf!
+[13:36:40] [Server thread/INFO]: §cwtf!
+[13:36:40] [Server thread/INFO]: §ewtf!
+[13:36:40] [Server thread/INFO]: §awtf!
+[13:36:41] [Server thread/INFO]: §cwtf!
+[13:36:41] [Server thread/INFO]: §ewtf!
+[13:36:41] [Server thread/INFO]: §awtf!
+[13:36:41] [Server thread/INFO]: §cwtf!
+[13:36:41] [Server thread/INFO]: §ewtf!
+[13:36:41] [Server thread/INFO]: §awtf!
+[13:36:42] [Async Chat Thread - #7/INFO]: <pilot322> as
+[13:36:42] [Server thread/INFO]: §cwtf!
+[13:36:42] [Server thread/INFO]: §ewtf!
+[13:36:42] [Server thread/INFO]: §awtf!
+[13:36:53] [Server thread/INFO]: pilot322 issued server command: /dev
+[13:36:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:36:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:36:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:36:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:36:54] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:36:54] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:36:54] [Server thread/INFO]: Loaded 1370 recipes
+[13:36:54] [Server thread/INFO]: Loaded 1481 advancements
+[13:36:54] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:36:54] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:36:54] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:36:54] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:36:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:36:54] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:36:54] [Server thread/INFO]: §cwtf!
+[13:36:54] [Server thread/INFO]: §ewtf!
+[13:36:54] [Server thread/INFO]: §awtf!
+[13:37:32] [Server thread/INFO]: §cwtf!
+[13:37:32] [Server thread/INFO]: §ewtf!
+[13:37:32] [Server thread/INFO]: §awtf!
+[13:41:16] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:41:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:41:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:41:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:41:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:41:16] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:41:16] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:41:16] [Server thread/INFO]: Loaded 1370 recipes
+[13:41:16] [Server thread/INFO]: Loaded 1481 advancements
+[13:41:16] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:41:16] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:41:16] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 314ms.
+[13:41:16] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:41:16] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:41:16] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:41:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:41:16] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:41:16] [RCON Client /127.0.0.1 #18/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:41:55] [Server thread/INFO]: pilot322 issued server command: /dev
+[13:41:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:41:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:41:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:41:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:41:55] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:41:55] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:41:55] [Server thread/INFO]: Loaded 1370 recipes
+[13:41:55] [Server thread/INFO]: Loaded 1481 advancements
+[13:41:55] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:41:55] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:41:55] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:41:55] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:41:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:41:55] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:42:34] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:42:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:42:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:42:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:42:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:42:34] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:42:34] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:42:34] [Server thread/INFO]: Loaded 1370 recipes
+[13:42:34] [Server thread/INFO]: Loaded 1481 advancements
+[13:42:35] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:42:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:42:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 181ms.
+[13:42:35] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:42:35] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:42:35] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:42:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:42:35] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:42:35] [Server thread/ERROR]: Error occurred while enabling MySpigotPlugin v1.0 (Is it up to date?)
+java.lang.IllegalArgumentException: data (class java.lang.Double) should be class java.lang.Void
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:446) ~[guava-33.3.1-jre.jar:?]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2204) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2197) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2186) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2166) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2146) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftWorld.spawnParticle(CraftWorld.java:2141) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at first-plugin-1.0-SNAPSHOT.jar/com.pilot322.plugin.MySpigotPlugin.script(MySpigotPlugin.java:33) ~[first-plugin-1.0-SNAPSHOT.jar:?]
+	at first-plugin-1.0-SNAPSHOT.jar/com.pilot322.plugin.BasePlugin.onEnable(BasePlugin.java:50) ~[first-plugin-1.0-SNAPSHOT.jar:?]
+	at first-plugin-1.0-SNAPSHOT.jar/com.pilot322.plugin.MySpigotPlugin.onEnable(MySpigotPlugin.java:16) ~[first-plugin-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:656) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:605) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1149) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at first-plugin-1.0-SNAPSHOT.jar/com.pilot322.plugin.BasePlugin.lambda$onEnable$0(BasePlugin.java:43) ~[first-plugin-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1016) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1001) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:743) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:42:35] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:42:35] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:42:35] [RCON Client /127.0.0.1 #19/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:43:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:43:55] [Server thread/WARN]: Unexpected exception while parsing console command "dev"
+org.bukkit.command.CommandException: Cannot execute command 'dev' in plugin MySpigotPlugin v1.0 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1016) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1001) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:743) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:43:55] [RCON Client /127.0.0.1 #20/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:44:27] [Server thread/INFO]: pilot322 issued server command: /dev
+[13:44:27] [Server thread/ERROR]: Command exception: /dev
+org.bukkit.command.CommandException: Cannot execute command 'dev' in plugin MySpigotPlugin v1.0 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:435) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:326) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:44:38] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:44:38] [Server thread/WARN]: Unexpected exception while parsing console command "dev"
+org.bukkit.command.CommandException: Cannot execute command 'dev' in plugin MySpigotPlugin v1.0 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1016) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1001) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:743) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-126-fb5b173]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:44:38] [RCON Client /127.0.0.1 #21/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:45:03] [Server thread/INFO]: pilot322 issued server command: /enable
+[13:45:08] [Server thread/INFO]: pilot322 issued server command: /plugins
+[13:45:12] [Server thread/INFO]: pilot322 issued server command: /plugins
+[13:45:15] [Server thread/INFO]: pilot322 issued server command: /reload
+[13:45:15] [Server thread/INFO]: pilot322: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[13:45:18] [Server thread/INFO]: pilot322 issued server command: /reload confirm
+[13:45:18] [Server thread/INFO]: pilot322: Please note that this command is not supported and may cause issues when using some plugins.
+[13:45:18] [Server thread/INFO]: pilot322: If you encounter any issues please use the /stop command to restart your server.
+[13:45:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:45:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:45:19] [Server thread/INFO]: Loaded 1370 recipes
+[13:45:19] [Server thread/INFO]: Loaded 1481 advancements
+[13:45:19] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:45:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:45:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 184ms.
+[13:45:19] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:45:19] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:45:19] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:45:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:19] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:45:19] [Server thread/INFO]: pilot322: Reload complete.
+[13:45:32] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:45:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:45:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:45:32] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:45:32] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:45:32] [Server thread/INFO]: Loaded 1370 recipes
+[13:45:32] [Server thread/INFO]: Loaded 1481 advancements
+[13:45:32] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:45:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:45:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 118ms.
+[13:45:32] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:45:32] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:45:32] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:45:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:32] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:45:32] [RCON Client /127.0.0.1 #22/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:46:14] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:46:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:46:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:46:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:46:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:46:15] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:46:15] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:46:15] [Server thread/INFO]: Loaded 1370 recipes
+[13:46:15] [Server thread/INFO]: Loaded 1481 advancements
+[13:46:15] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:46:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:46:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 136ms.
+[13:46:15] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:46:15] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:46:15] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:46:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:46:15] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:46:15] [RCON Client /127.0.0.1 #23/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:47:42] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:47:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:47:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:47:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:47:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:47:42] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:47:42] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:47:42] [Server thread/INFO]: Loaded 1370 recipes
+[13:47:42] [Server thread/INFO]: Loaded 1481 advancements
+[13:47:42] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:47:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:47:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 206ms.
+[13:47:42] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:47:42] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:47:42] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:47:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:47:42] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:47:42] [RCON Client /127.0.0.1 #24/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:48:10] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:48:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:48:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:48:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:48:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:48:10] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:48:10] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:48:11] [Server thread/INFO]: Loaded 1370 recipes
+[13:48:11] [Server thread/INFO]: Loaded 1481 advancements
+[13:48:11] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:48:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:48:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 271ms.
+[13:48:11] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:48:11] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:48:11] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:48:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:48:11] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:48:11] [RCON Client /127.0.0.1 #25/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:48:32] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:48:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:48:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:48:32] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:48:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:48:32] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:48:32] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:48:33] [Server thread/INFO]: Loaded 1370 recipes
+[13:48:33] [Server thread/INFO]: Loaded 1481 advancements
+[13:48:33] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:48:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:48:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 200ms.
+[13:48:33] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:48:33] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:48:33] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:48:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:48:33] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:48:33] [RCON Client /127.0.0.1 #26/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:54:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:54:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:54:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:54:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:54:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:54:53] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:54:53] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:54:53] [Server thread/INFO]: Loaded 1370 recipes
+[13:54:53] [Server thread/INFO]: Loaded 1481 advancements
+[13:54:53] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:54:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:54:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 124ms.
+[13:54:53] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:54:53] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:54:53] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:54:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:54:53] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:54:53] [RCON Client /127.0.0.1 #27/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:56:30] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:56:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:56:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:56:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:56:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:56:30] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:56:30] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:56:30] [Server thread/INFO]: Loaded 1370 recipes
+[13:56:30] [Server thread/INFO]: Loaded 1481 advancements
+[13:56:30] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:56:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:56:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 115ms.
+[13:56:30] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:56:30] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:56:30] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:56:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:56:30] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:56:30] [RCON Client /127.0.0.1 #28/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:57:04] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:57:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:57:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:57:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:57:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:57:04] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[13:57:04] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[13:57:04] [Server thread/INFO]: Loaded 1370 recipes
+[13:57:04] [Server thread/INFO]: Loaded 1481 advancements
+[13:57:05] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:57:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[13:57:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 211ms.
+[13:57:05] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:57:05] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[13:57:05] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[13:57:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:57:05] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[13:57:05] [RCON Client /127.0.0.1 #29/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:04:03] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:04:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:04:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:04:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:04:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:04:03] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:04:03] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:04:04] [Server thread/INFO]: Loaded 1370 recipes
+[14:04:04] [Server thread/INFO]: Loaded 1481 advancements
+[14:04:04] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:04:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:04:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 153ms.
+[14:04:04] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:04:04] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:04:04] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:04:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:04:04] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:04:04] [RCON Client /127.0.0.1 #30/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:04:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:04:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:04:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:04:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:04:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:04:39] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:04:39] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:04:39] [Server thread/INFO]: Loaded 1370 recipes
+[14:04:39] [Server thread/INFO]: Loaded 1481 advancements
+[14:04:39] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:04:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:04:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 235ms.
+[14:04:40] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:04:40] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:04:40] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:04:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:04:40] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:04:40] [RCON Client /127.0.0.1 #31/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:05:15] [Server thread/INFO]: pilot322 issued server command: /gamemode survival
+[14:05:15] [Server thread/INFO]: [pilot322: Set own game mode to Survival Mode]
+[14:05:16] [Server thread/INFO]: pilot322 fell from a high place
+[14:05:21] [Server thread/INFO]: pilot322 issued server command: /gamemode creative
+[14:05:21] [Server thread/INFO]: [pilot322: Set own game mode to Creative Mode]
+[14:25:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:25:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:25:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:25:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:25:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:25:49] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:25:49] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:25:49] [Server thread/INFO]: Loaded 1370 recipes
+[14:25:49] [Server thread/INFO]: Loaded 1481 advancements
+[14:25:49] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:25:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:25:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 135ms.
+[14:25:49] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:25:49] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:25:49] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:25:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:25:49] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:25:49] [Server thread/INFO]: Hello!
+[14:25:49] [RCON Client /127.0.0.1 #32/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:25:49] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:52] [Server thread/INFO]: Hello!
+[14:25:52] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:52] [Server thread/INFO]: Hello!
+[14:25:52] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:52] [Server thread/INFO]: Hello!
+[14:25:52] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:53] [Server thread/INFO]: Hello!
+[14:25:53] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:53] [Server thread/INFO]: Hello!
+[14:25:53] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:25:53] [Server thread/INFO]: Hello!
+[14:25:53] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:29:04] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:29:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:29:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:29:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:29:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:29:04] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:29:04] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:29:05] [Server thread/INFO]: Loaded 1370 recipes
+[14:29:05] [Server thread/INFO]: Loaded 1481 advancements
+[14:29:05] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:29:05] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:29:05] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:29:05] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:29:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:29:05] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:29:05] [Server thread/INFO]: Hello!
+[14:29:05] [RCON Client /127.0.0.1 #33/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:29:05] [Server thread/INFO]: [Not Secure] [Server] wtf
+[14:30:23] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:30:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:30:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:30:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:30:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:30:24] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:30:24] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:30:24] [Server thread/INFO]: Loaded 1370 recipes
+[14:30:24] [Server thread/INFO]: Loaded 1481 advancements
+[14:30:24] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:30:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:30:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 103ms.
+[14:30:24] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:30:24] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:30:24] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:30:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:30:24] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:30:24] [Server thread/INFO]: Hello!
+[14:30:24] [RCON Client /127.0.0.1 #34/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:30:27] [Server thread/INFO]: Hello!
+[14:30:28] [Server thread/INFO]: Hello!
+[14:30:28] [Server thread/INFO]: Hello!
+[14:30:28] [Server thread/INFO]: Hello!
+[14:30:30] [Server thread/INFO]: Hello!
+[14:30:30] [Server thread/INFO]: Hello!
+[14:30:31] [Server thread/INFO]: Hello!
+[14:30:31] [Server thread/INFO]: Hello!
+[14:30:31] [Server thread/INFO]: Hello!
+[14:30:31] [Server thread/INFO]: Hello!
+[14:30:32] [Server thread/INFO]: Hello!
+[14:30:32] [Server thread/INFO]: Hello!
+[14:30:33] [Server thread/INFO]: Hello!
+[14:30:34] [Server thread/INFO]: Hello!
+[14:31:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:31:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:31:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:31:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:31:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:31:50] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:31:50] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:31:50] [Server thread/INFO]: Loaded 1370 recipes
+[14:31:50] [Server thread/INFO]: Loaded 1481 advancements
+[14:31:50] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:31:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:31:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 137ms.
+[14:31:50] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:31:50] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:31:50] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:31:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:31:50] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:31:50] [Server thread/INFO]: Hello!
+[14:31:50] [RCON Client /127.0.0.1 #35/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:31:50] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:51] [Server thread/INFO]: Hello!
+[14:31:51] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:51] [Server thread/INFO]: Hello!
+[14:31:51] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:51] [Server thread/INFO]: Hello!
+[14:31:51] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:52] [Server thread/INFO]: Hello!
+[14:31:52] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:52] [Server thread/INFO]: Hello!
+[14:31:52] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:52] [Server thread/INFO]: Hello!
+[14:31:52] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:53] [Server thread/INFO]: Hello!
+[14:31:53] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:53] [Server thread/INFO]: Hello!
+[14:31:53] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:53] [Server thread/INFO]: Hello!
+[14:31:53] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:57] [Server thread/INFO]: Hello!
+[14:31:57] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:57] [Server thread/INFO]: Hello!
+[14:31:57] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:57] [Server thread/INFO]: Hello!
+[14:31:57] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:31:58] [Server thread/INFO]: Hello!
+[14:31:58] [Server thread/INFO]: [Not Secure] [Server] $p.getLocation();
+[14:33:34] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:33:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:33:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:33:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:33:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:33:34] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:33:34] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:33:34] [Server thread/INFO]: Loaded 1370 recipes
+[14:33:34] [Server thread/INFO]: Loaded 1481 advancements
+[14:33:34] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:33:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:33:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 156ms.
+[14:33:34] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:33:34] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:33:34] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:33:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:33:34] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:33:34] [Server thread/INFO]: Hello!
+[14:33:34] [Server thread/INFO]: 10yknow
+[14:33:34] [Server thread/INFO]: 10yknow
+[14:33:34] [Server thread/INFO]: 10yknow
+[14:33:34] [RCON Client /127.0.0.1 #36/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:33:34] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:33:34] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:33:34] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:07] [Server thread/INFO]: Hello!
+[14:34:07] [Server thread/INFO]: 10yknow
+[14:34:07] [Server thread/INFO]: 10yknow
+[14:34:07] [Server thread/INFO]: 10yknow
+[14:34:07] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:07] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:07] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: Hello!
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: Hello!
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: 10yknow
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:08] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:09] [Server thread/INFO]: Hello!
+[14:34:09] [Server thread/INFO]: 10yknow
+[14:34:09] [Server thread/INFO]: 10yknow
+[14:34:09] [Server thread/INFO]: 10yknow
+[14:34:09] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:09] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:09] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:10] [Server thread/INFO]: Hello!
+[14:34:10] [Server thread/INFO]: 10yknow
+[14:34:10] [Server thread/INFO]: 10yknow
+[14:34:10] [Server thread/INFO]: 10yknow
+[14:34:10] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:10] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:10] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:53] [Server thread/INFO]: Hello!
+[14:34:53] [Server thread/INFO]: 10yknow
+[14:34:53] [Server thread/INFO]: 10yknow
+[14:34:53] [Server thread/INFO]: 10yknow
+[14:34:53] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:53] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:53] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:54] [Server thread/INFO]: Hello!
+[14:34:54] [Server thread/INFO]: 10yknow
+[14:34:54] [Server thread/INFO]: 10yknow
+[14:34:54] [Server thread/INFO]: 10yknow
+[14:34:54] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:54] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:54] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: Hello!
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: Hello!
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: 10yknow
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:34:55] [Server thread/INFO]: [Not Secure] [Server] $i
+[14:36:21] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:36:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:36:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:36:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:36:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:36:21] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:36:21] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:36:21] [Server thread/INFO]: Loaded 1370 recipes
+[14:36:21] [Server thread/INFO]: Loaded 1481 advancements
+[14:36:21] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:36:21] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:36:21] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 113ms.
+[14:36:21] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:36:21] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:36:21] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:36:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:36:21] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:36:21] [Server thread/INFO]: Hello!
+[14:36:21] [Server thread/INFO]: 13 is prime!
+[14:36:21] [RCON Client /127.0.0.1 #37/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:36:36] [Server thread/INFO]: pilot322 issued server command: /clear
+[14:36:36] [Server thread/INFO]: [pilot322: Removed 1 item(s) from player pilot322]
+[14:36:43] [Server thread/INFO]: pilot322 lost connection: Disconnected
+[14:36:43] [Server thread/INFO]: pilot322 left the game
+[14:36:44] [User Authenticator #1/INFO]: UUID of player pilot322 is 339c5eff-05b7-4396-9e98-90106205be07
+[14:36:44] [Server thread/INFO]: pilot322 joined the game
+[14:36:44] [Server thread/INFO]: pilot322[/37.6.159.151:60486] logged in with entity id 17527 at ([world]224.3099719964532, 80.0, -36.38343166050753)
+[14:37:04] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:37:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:37:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:37:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:37:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:37:04] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:37:04] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:37:04] [Server thread/INFO]: Loaded 1370 recipes
+[14:37:04] [Server thread/INFO]: Loaded 1481 advancements
+[14:37:04] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:37:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:37:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 181ms.
+[14:37:04] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:37:04] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:37:04] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:37:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:37:04] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:37:04] [Server thread/INFO]: Hello!
+[14:37:04] [Server thread/INFO]: 13 is prime!
+[14:37:04] [RCON Client /127.0.0.1 #38/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:49:07] [Server thread/INFO]: Hello!
+[14:49:07] [Server thread/INFO]: 13 is prime!
+[14:49:07] [Server thread/INFO]: Hello!
+[14:49:07] [Server thread/INFO]: 13 is prime!
+[14:49:08] [Server thread/INFO]: Hello!
+[14:49:08] [Server thread/INFO]: 13 is prime!
+[14:49:08] [Server thread/INFO]: Hello!
+[14:49:08] [Server thread/INFO]: 13 is prime!
+[14:57:41] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:57:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:57:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:57:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:57:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:57:41] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:57:41] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:57:42] [Server thread/INFO]: Loaded 1370 recipes
+[14:57:42] [Server thread/INFO]: Loaded 1481 advancements
+[14:57:42] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:57:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:57:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 102ms.
+[14:57:42] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:57:42] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:57:42] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:57:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:57:42] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:57:42] [Server thread/INFO]: Hello!
+[14:57:42] [Server thread/INFO]: 13 is prime!
+[14:57:42] [RCON Client /127.0.0.1 #39/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:57:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:57:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:57:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:57:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:57:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:57:53] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:57:53] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:57:53] [Server thread/INFO]: Loaded 1370 recipes
+[14:57:53] [Server thread/INFO]: Loaded 1481 advancements
+[14:57:53] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:57:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[14:57:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 188ms.
+[14:57:53] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:57:53] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:57:53] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:57:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:57:53] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:57:53] [Server thread/INFO]: Hello!
+[14:57:53] [Server thread/INFO]: 13 is prime!
+[14:57:53] [RCON Client /127.0.0.1 #40/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:58:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:58:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:58:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:58:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:58:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:58:02] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:58:02] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:58:02] [Server thread/INFO]: Loaded 1370 recipes
+[14:58:02] [Server thread/INFO]: Loaded 1481 advancements
+[14:58:02] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:58:02] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:58:02] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:58:02] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:58:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:58:02] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:58:02] [Server thread/INFO]: Hello!
+[14:58:02] [Server thread/INFO]: 13 is prime!
+[14:58:02] [RCON Client /127.0.0.1 #41/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:58:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:58:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:58:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:58:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:58:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:58:50] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:58:50] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:58:51] [Server thread/INFO]: Loaded 1370 recipes
+[14:58:51] [Server thread/INFO]: Loaded 1481 advancements
+[14:58:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:58:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:58:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[14:58:51] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[14:58:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:58:51] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[14:58:51] [Server thread/INFO]: Hello!
+[14:58:51] [Server thread/INFO]: 13 is prime!
+[14:58:51] [RCON Client /127.0.0.1 #42/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:58:52] [Server thread/INFO]: Hello!
+[14:58:52] [Server thread/INFO]: 13 is prime!
+[14:58:53] [Server thread/INFO]: Hello!
+[14:58:53] [Server thread/INFO]: 13 is prime!
+[14:59:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:59:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:59:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:59:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[14:59:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:59:59] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[14:59:59] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[14:59:59] [Server thread/INFO]: Loaded 1370 recipes
+[14:59:59] [Server thread/INFO]: Loaded 1481 advancements
+[15:00:00] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:00:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:00:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 200ms.
+[15:00:00] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:00:00] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:00:00] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:00:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:00:00] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:00:00] [Server thread/INFO]: giasu maria!
+[15:00:00] [RCON Client /127.0.0.1 #43/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:02:02] [Server thread/INFO]: giasu maria!
+[15:06:15] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:06:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:06:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:06:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:06:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:06:15] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:06:15] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:06:15] [Server thread/INFO]: Loaded 1370 recipes
+[15:06:15] [Server thread/INFO]: Loaded 1481 advancements
+[15:06:15] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:06:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:06:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 151ms.
+[15:06:15] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:06:15] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:06:15] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:06:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:06:15] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:06:15] [Server thread/INFO]: giasu maria!
+[15:06:15] [RCON Client /127.0.0.1 #44/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:06:24] [Async Chat Thread - #14/INFO]: <pilot322> a
+[15:07:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:07:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:07:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:07:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:07:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:07:00] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:07:00] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:07:01] [Server thread/INFO]: Loaded 1370 recipes
+[15:07:01] [Server thread/INFO]: Loaded 1481 advancements
+[15:07:01] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:07:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:07:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 115ms.
+[15:07:01] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:07:01] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:07:01] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:07:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:07:01] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:07:01] [Server thread/INFO]: giasu maria!
+[15:07:01] [RCON Client /127.0.0.1 #45/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:07:11] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:07:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:07:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:07:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:07:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:07:11] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:07:11] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:07:11] [Server thread/INFO]: Loaded 1370 recipes
+[15:07:11] [Server thread/INFO]: Loaded 1481 advancements
+[15:07:12] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:07:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:07:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 200ms.
+[15:07:12] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:07:12] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:07:12] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:07:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:07:12] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:07:12] [Server thread/INFO]: giasu maria!
+[15:07:12] [RCON Client /127.0.0.1 #46/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:08:07] [Server thread/INFO]: giasu maria!
+[15:08:08] [Server thread/INFO]: giasu maria!
+[15:09:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:09:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:09:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:09:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:09:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:09:59] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:09:59] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:10:00] [Server thread/INFO]: Loaded 1370 recipes
+[15:10:00] [Server thread/INFO]: Loaded 1481 advancements
+[15:10:00] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:10:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:10:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 196ms.
+[15:10:00] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:10:00] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:10:00] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:10:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:10:00] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:10:00] [Server thread/INFO]: giasu maraki!
+[15:10:00] [Server thread/INFO]: 0
+[15:10:00] [Server thread/INFO]: 1
+[15:10:00] [Server thread/INFO]: 2
+[15:10:00] [RCON Client /127.0.0.1 #47/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:10:22] [Async Chat Thread - #16/INFO]: <pilot322> aa
+[15:10:26] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:10:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:10:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:10:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:10:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:10:26] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:10:26] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:10:26] [Server thread/INFO]: Loaded 1370 recipes
+[15:10:26] [Server thread/INFO]: Loaded 1481 advancements
+[15:10:26] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:10:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:10:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 102ms.
+[15:10:26] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:10:26] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:10:26] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:10:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:10:26] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:10:26] [Server thread/INFO]: giasu maraki!
+[15:10:26] [Server thread/INFO]: 1
+[15:10:26] [Server thread/INFO]: 2
+[15:10:26] [Server thread/INFO]: 3
+[15:10:26] [RCON Client /127.0.0.1 #48/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:11:14] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:11:14] [RCON Client /127.0.0.1 #49/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:11:14] [Server thread/INFO]: [Not Secure] [Rcon] Reloading...
+[15:11:14] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:11:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:11:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:11:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:11:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:11:14] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:11:14] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:11:14] [Server thread/INFO]: Loaded 1370 recipes
+[15:11:14] [Server thread/INFO]: Loaded 1481 advancements
+[15:11:14] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:11:14] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:11:14] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 144ms.
+[15:11:14] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:11:14] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:11:14] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:11:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:11:14] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:11:14] [Server thread/INFO]: let's go!
+[15:11:14] [Server thread/INFO]: 1
+[15:11:14] [Server thread/INFO]: 2
+[15:11:14] [Server thread/INFO]: 3
+[15:11:14] [RCON Client /127.0.0.1 #50/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:11:59] [Async Chat Thread - #16/INFO]: <pilot322> aa
+[15:12:03] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:03] [RCON Client /127.0.0.1 #51/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:03] [Server thread/INFO]: [Not Secure] [Rcon] Reloading...
+[15:12:07] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:07] [RCON Client /127.0.0.1 #52/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:07] [Server thread/INFO]: [Not Secure] [Rcon] Finished reloading.
+[15:12:07] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:12:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:12:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:12:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:12:07] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:12:07] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:12:07] [Server thread/INFO]: Loaded 1370 recipes
+[15:12:07] [Server thread/INFO]: Loaded 1481 advancements
+[15:12:07] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:12:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:12:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 156ms.
+[15:12:07] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:12:07] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:12:07] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:12:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:12:07] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:12:07] [Server thread/INFO]: let's go!
+[15:12:07] [Server thread/INFO]: 1
+[15:12:07] [Server thread/INFO]: 2
+[15:12:07] [Server thread/INFO]: 3
+[15:12:07] [RCON Client /127.0.0.1 #53/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:40] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:40] [RCON Client /127.0.0.1 #54/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:40] [Server thread/INFO]: [Not Secure] [Rcon] §fReloading...
+[15:12:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:44] [RCON Client /127.0.0.1 #55/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:44] [Server thread/INFO]: [Not Secure] [Rcon] §fFinished reloading.
+[15:12:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:12:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:12:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:12:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:12:44] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:12:44] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:12:44] [Server thread/INFO]: Loaded 1370 recipes
+[15:12:44] [Server thread/INFO]: Loaded 1481 advancements
+[15:12:45] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:12:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:12:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 212ms.
+[15:12:45] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:12:45] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:12:45] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:12:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:12:45] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:12:45] [Server thread/INFO]: let's go!
+[15:12:45] [Server thread/INFO]: 1
+[15:12:45] [Server thread/INFO]: 2
+[15:12:45] [Server thread/INFO]: 3
+[15:12:45] [RCON Client /127.0.0.1 #56/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:47] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:47] [RCON Client /127.0.0.1 #57/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:47] [Server thread/INFO]: [Not Secure] [Rcon] §fReloading...
+[15:12:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:50] [RCON Client /127.0.0.1 #58/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:50] [Server thread/INFO]: [Not Secure] [Rcon] §fFinished reloading.
+[15:12:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:12:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:12:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:12:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:12:50] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:12:50] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:12:51] [Server thread/INFO]: Loaded 1370 recipes
+[15:12:51] [Server thread/INFO]: Loaded 1481 advancements
+[15:12:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:12:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:12:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:12:51] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:12:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:12:51] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:12:51] [Server thread/INFO]: let's go!
+[15:12:51] [Server thread/INFO]: 1
+[15:12:51] [Server thread/INFO]: 2
+[15:12:51] [Server thread/INFO]: 3
+[15:12:51] [RCON Client /127.0.0.1 #59/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:53] [RCON Client /127.0.0.1 #60/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:53] [Server thread/INFO]: [Not Secure] [Rcon] §fReloading...
+[15:12:58] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:58] [RCON Client /127.0.0.1 #61/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:12:58] [Server thread/INFO]: [Not Secure] [Rcon] §fFinished reloading.
+[15:12:58] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:12:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:12:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:12:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:12:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:12:58] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:12:58] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:12:58] [Server thread/INFO]: Loaded 1370 recipes
+[15:12:58] [Server thread/INFO]: Loaded 1481 advancements
+[15:12:58] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:12:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:12:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 149ms.
+[15:12:58] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:12:58] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:12:58] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:12:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:12:58] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:12:58] [Server thread/INFO]: let's go!
+[15:12:58] [Server thread/INFO]: 1
+[15:12:58] [Server thread/INFO]: 2
+[15:12:58] [Server thread/INFO]: 3
+[15:12:58] [RCON Client /127.0.0.1 #62/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:13] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:13] [RCON Client /127.0.0.1 #63/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:13] [Server thread/INFO]: [Not Secure] [Rcon] §fRelooading...
+[15:13:18] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:18] [RCON Client /127.0.0.1 #64/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:18] [Server thread/INFO]: [Not Secure] [Rcon] §fFinished reloading.
+[15:13:18] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:13:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:13:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:13:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:13:18] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:13:18] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:13:18] [Server thread/INFO]: Loaded 1370 recipes
+[15:13:18] [Server thread/INFO]: Loaded 1481 advancements
+[15:13:18] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:13:18] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:13:18] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 187ms.
+[15:13:18] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:13:18] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:13:18] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:13:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:13:18] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:13:18] [Server thread/INFO]: let's go!
+[15:13:18] [Server thread/INFO]: 1
+[15:13:18] [Server thread/INFO]: 2
+[15:13:18] [Server thread/INFO]: 3
+[15:13:18] [RCON Client /127.0.0.1 #65/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:22] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:22] [RCON Client /127.0.0.1 #66/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:22] [Server thread/INFO]: [Not Secure] [Rcon] §dRelooading...
+[15:13:27] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:27] [RCON Client /127.0.0.1 #67/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:27] [Server thread/INFO]: [Not Secure] [Rcon] §dFinished reloading.
+[15:13:27] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:13:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:13:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:13:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:13:27] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:13:27] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:13:27] [Server thread/INFO]: Loaded 1370 recipes
+[15:13:27] [Server thread/INFO]: Loaded 1481 advancements
+[15:13:27] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:13:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:13:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 240ms.
+[15:13:27] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:13:27] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:13:27] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:13:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:13:27] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:13:27] [Server thread/INFO]: let's go!
+[15:13:27] [Server thread/INFO]: 1
+[15:13:27] [Server thread/INFO]: 2
+[15:13:27] [Server thread/INFO]: 3
+[15:13:27] [RCON Client /127.0.0.1 #68/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:51] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:51] [RCON Client /127.0.0.1 #69/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:55] [RCON Client /127.0.0.1 #70/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:13:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:13:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:13:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:13:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:13:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:13:55] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:13:55] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:13:56] [Server thread/INFO]: Loaded 1370 recipes
+[15:13:56] [Server thread/INFO]: Loaded 1481 advancements
+[15:13:56] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:13:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:13:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 179ms.
+[15:13:56] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:13:56] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:13:56] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:13:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:13:56] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:13:56] [Server thread/INFO]: let's go!
+[15:13:56] [Server thread/INFO]: 1
+[15:13:56] [Server thread/INFO]: 2
+[15:13:56] [Server thread/INFO]: 3
+[15:13:56] [RCON Client /127.0.0.1 #71/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:14:30] [Server thread/INFO]: pilot322 issued server command: /tellraw @a "qwt"
+[15:14:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:14:50] [RCON Client /127.0.0.1 #72/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:14:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:14:55] [RCON Client /127.0.0.1 #73/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:14:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:14:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:14:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:14:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:14:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:14:55] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:14:55] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:14:55] [Server thread/INFO]: Loaded 1370 recipes
+[15:14:55] [Server thread/INFO]: Loaded 1481 advancements
+[15:14:55] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:14:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:14:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 120ms.
+[15:14:55] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:14:55] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:14:55] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:14:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:14:55] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:14:55] [Server thread/INFO]: let's go!
+[15:14:55] [Server thread/INFO]: 1
+[15:14:55] [Server thread/INFO]: 2
+[15:14:55] [Server thread/INFO]: 3
+[15:14:55] [RCON Client /127.0.0.1 #74/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:05] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:05] [RCON Client /127.0.0.1 #75/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:09] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:09] [RCON Client /127.0.0.1 #76/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:09] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:16:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:16:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:16:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:16:09] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:16:09] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:16:10] [Server thread/INFO]: Loaded 1370 recipes
+[15:16:10] [Server thread/INFO]: Loaded 1481 advancements
+[15:16:10] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:16:10] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:16:10] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 130ms.
+[15:16:10] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:16:10] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:16:10] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:16:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:16:10] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:16:10] [Server thread/INFO]: let's go!
+[15:16:10] [Server thread/INFO]: 1
+[15:16:10] [Server thread/INFO]: 2
+[15:16:10] [Server thread/INFO]: 3
+[15:16:10] [RCON Client /127.0.0.1 #77/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:34] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:34] [RCON Client /127.0.0.1 #78/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:39] [RCON Client /127.0.0.1 #79/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:16:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:16:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:16:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:16:39] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:16:39] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:16:39] [Server thread/INFO]: Loaded 1370 recipes
+[15:16:39] [Server thread/INFO]: Loaded 1481 advancements
+[15:16:39] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:16:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:16:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 206ms.
+[15:16:39] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:16:39] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:16:39] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:16:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:16:39] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:16:39] [Server thread/INFO]: let's go!
+[15:16:39] [Server thread/INFO]: 1
+[15:16:39] [Server thread/INFO]: 2
+[15:16:39] [Server thread/INFO]: 3
+[15:16:39] [RCON Client /127.0.0.1 #80/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:16:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:16:56] [RCON Client /127.0.0.1 #81/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:17:01] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:17:01] [RCON Client /127.0.0.1 #82/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:17:01] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:17:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:17:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:17:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:17:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:17:01] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:17:01] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:17:01] [Server thread/INFO]: Loaded 1370 recipes
+[15:17:01] [Server thread/INFO]: Loaded 1481 advancements
+[15:17:01] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 214ms.
+[15:17:01] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:17:01] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:17:01] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:17:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:17:01] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:17:01] [Server thread/INFO]: let's go!
+[15:17:01] [Server thread/INFO]: 1
+[15:17:01] [Server thread/INFO]: 2
+[15:17:01] [Server thread/INFO]: 3
+[15:17:01] [RCON Client /127.0.0.1 #83/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:00] [RCON Client /127.0.0.1 #84/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:05] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:05] [RCON Client /127.0.0.1 #85/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:05] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:18:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:18:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:18:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:18:05] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:18:05] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:18:05] [Server thread/INFO]: Loaded 1370 recipes
+[15:18:05] [Server thread/INFO]: Loaded 1481 advancements
+[15:18:05] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:18:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:18:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 143ms.
+[15:18:05] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:18:05] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:18:05] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:18:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:18:05] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:18:05] [Server thread/INFO]: let's go!
+[15:18:05] [Server thread/INFO]: 1
+[15:18:05] [Server thread/INFO]: 2
+[15:18:05] [Server thread/INFO]: 3
+[15:18:05] [RCON Client /127.0.0.1 #86/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:15] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:15] [RCON Client /127.0.0.1 #87/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:19] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:19] [RCON Client /127.0.0.1 #88/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:19] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:18:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:18:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:18:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:18:19] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:18:19] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:18:19] [Server thread/INFO]: Loaded 1370 recipes
+[15:18:19] [Server thread/INFO]: Loaded 1481 advancements
+[15:18:20] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:18:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:18:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 154ms.
+[15:18:20] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:18:20] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:18:20] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:18:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:18:20] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:18:20] [Server thread/INFO]: let's go!
+[15:18:20] [Server thread/INFO]: 1
+[15:18:20] [Server thread/INFO]: 2
+[15:18:20] [Server thread/INFO]: 3
+[15:18:20] [RCON Client /127.0.0.1 #89/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:41] [Server thread/INFO]: pilot322 lost connection: Disconnected
+[15:18:41] [Server thread/INFO]: pilot322 left the game
+[15:18:44] [User Authenticator #2/INFO]: UUID of player pilot322 is 339c5eff-05b7-4396-9e98-90106205be07
+[15:18:45] [Server thread/INFO]: pilot322 joined the game
+[15:18:45] [Server thread/INFO]: pilot322[/37.6.159.151:33712] logged in with entity id 21392 at ([world]220.16855294114484, 82.53292827534491, -25.224119437340054)
+[15:18:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:49] [RCON Client /127.0.0.1 #90/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:52] [RCON Client /127.0.0.1 #91/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:18:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:18:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:18:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:18:52] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:18:52] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:18:52] [Server thread/INFO]: Loaded 1370 recipes
+[15:18:52] [Server thread/INFO]: Loaded 1481 advancements
+[15:18:52] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:18:52] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:18:52] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:18:52] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:18:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:18:52] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:18:52] [Server thread/INFO]: let's go!
+[15:18:52] [Server thread/INFO]: 1
+[15:18:52] [Server thread/INFO]: 2
+[15:18:52] [Server thread/INFO]: 3
+[15:18:52] [RCON Client /127.0.0.1 #92/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:18:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:18:56] [RCON Client /127.0.0.1 #93/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:19:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:19:00] [RCON Client /127.0.0.1 #94/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:19:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:19:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:19:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:19:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:19:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:19:00] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:19:00] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:19:00] [Server thread/INFO]: Loaded 1370 recipes
+[15:19:00] [Server thread/INFO]: Loaded 1481 advancements
+[15:19:00] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:19:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:19:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 127ms.
+[15:19:01] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:19:01] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:19:01] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:19:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:19:01] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:19:01] [Server thread/INFO]: let's go!
+[15:19:01] [Server thread/INFO]: 1
+[15:19:01] [Server thread/INFO]: 2
+[15:19:01] [Server thread/INFO]: 3
+[15:19:01] [RCON Client /127.0.0.1 #95/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:20:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:20:52] [RCON Client /127.0.0.1 #96/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:20:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:20:56] [RCON Client /127.0.0.1 #97/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:20:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:20:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:20:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:20:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:20:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:20:57] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:20:57] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:20:57] [Server thread/INFO]: Loaded 1370 recipes
+[15:20:57] [Server thread/INFO]: Loaded 1481 advancements
+[15:20:57] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:20:57] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:20:57] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:20:57] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:20:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:20:57] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:20:57] [Server thread/INFO]: let's go!
+[15:20:57] [Server thread/INFO]: 1
+[15:20:57] [Server thread/INFO]: 2
+[15:20:57] [Server thread/INFO]: 3
+[15:20:57] [RCON Client /127.0.0.1 #98/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:04] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:04] [RCON Client /127.0.0.1 #99/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:08] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:08] [RCON Client /127.0.0.1 #100/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:08] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:21:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:21:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:21:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:21:09] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:21:09] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:21:09] [Server thread/INFO]: Loaded 1370 recipes
+[15:21:09] [Server thread/INFO]: Loaded 1481 advancements
+[15:21:09] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:21:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:21:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 175ms.
+[15:21:09] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:21:09] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:21:09] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:21:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:21:09] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:21:09] [Server thread/INFO]: let's go!
+[15:21:09] [Server thread/INFO]: §e01
+[15:21:09] [Server thread/INFO]: §e11
+[15:21:09] [Server thread/INFO]: §e21
+[15:21:09] [RCON Client /127.0.0.1 #101/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:31] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:31] [RCON Client /127.0.0.1 #102/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:34] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:34] [RCON Client /127.0.0.1 #103/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:34] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:21:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:21:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:21:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:21:34] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:21:34] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:21:34] [Server thread/INFO]: Loaded 1370 recipes
+[15:21:34] [Server thread/INFO]: Loaded 1481 advancements
+[15:21:35] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:21:35] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:21:35] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:21:35] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:21:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:21:35] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:21:35] [Server thread/INFO]: let's go!
+[15:21:35] [Server thread/INFO]: §e01
+[15:21:35] [Server thread/INFO]: §e11
+[15:21:35] [Server thread/INFO]: §e21
+[15:21:35] [RCON Client /127.0.0.1 #104/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:40] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:40] [RCON Client /127.0.0.1 #105/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:44] [RCON Client /127.0.0.1 #106/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:21:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[15:21:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:21:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:21:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:21:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:21:44] [Server thread/INFO]: [MySpigotPlugin] Disabling MySpigotPlugin v1.0
+[15:21:44] [Server thread/INFO]: [MySpigotPlugin] MySpigotPlugin has been disabled!
+[15:21:45] [Server thread/INFO]: Loaded 1370 recipes
+[15:21:45] [Server thread/INFO]: Loaded 1481 advancements
+[15:21:45] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:21:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar'...
+[15:21:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/first-plugin-1.0-SNAPSHOT.jar' in 141ms.
+[15:21:45] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:21:45] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MySpigotPlugin (1.0)
+[15:21:45] [Server thread/INFO]: [MySpigotPlugin] Loading server plugin MySpigotPlugin v1.0
+[15:21:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:21:45] [Server thread/INFO]: [MySpigotPlugin] Enabling MySpigotPlugin v1.0
+[15:21:45] [Server thread/INFO]: let's go!
+[15:21:45] [Server thread/INFO]: §e1
+[15:21:45] [Server thread/INFO]: §e2
+[15:21:45] [Server thread/INFO]: §e3
+[15:21:45] [RCON Client /127.0.0.1 #107/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[15:22:15] [Server thread/INFO]: let's go!
+[15:22:15] [Server thread/INFO]: §e1
+[15:22:15] [Server thread/INFO]: §e2
+[15:22:15] [Server thread/INFO]: §e3
+[15:22:16] [Server thread/INFO]: let's go!
+[15:22:16] [Server thread/INFO]: §e1
+[15:22:16] [Server thread/INFO]: §e2
+[15:22:16] [Server thread/INFO]: §e3
+[15:22:16] [Server thread/INFO]: let's go!
+[15:22:16] [Server thread/INFO]: §e1
+[15:22:16] [Server thread/INFO]: §e2
+[15:22:16] [Server thread/INFO]: §e3
+[15:22:16] [Server thread/INFO]: let's go!
+[15:22:16] [Server thread/INFO]: §e1
+[15:22:16] [Server thread/INFO]: §e2
+[15:22:16] [Server thread/INFO]: §e3

@@ -1,0 +1,7 @@
+name: MySpigotPlugin
+version: 1.0
+main: com.pilot322.plugin.MySpigotPlugin
+api-version: 1.21
+commands:
+  dev:
+    description: yoo

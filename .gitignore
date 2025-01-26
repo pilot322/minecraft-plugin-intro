@@ -1,0 +1,8 @@
+/first-plugin/deploy.sh
+/first-plugin/build.sh
+/first-plugin/dev.sh
+/test-server/world
+/test-server/world_nether
+/test-server/world_the_end
+/test-server/plugins
+/test-server/libraries

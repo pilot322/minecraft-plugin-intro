@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run dev.sh", // Name of the task
+            "type": "shell", // Run as a shell script
+            "command": "./dev.sh", // Command to run the script
+            "problemMatcher": [], // No error matching
+            "group": {
+                "kind": "build",
+                "isDefault": true // Makes it the default build task
+            },
+            "presentation": {
+                "reveal": "always", // Always show the terminal
+                "panel": "shared" // Use a shared terminal panel
+            }
+        },
+        {
+            "label": "Run deploy.sh", // Name of the task
+            "type": "shell", // Run as a shell script
+            "command": "./deploy.sh", // Command to run the script
+            "problemMatcher": [], // No error matching
+            "group": {
+                "kind": "build",
+                "isDefault": true // Makes it the default build task
+            },
+            "presentation": {
+                "reveal": "always", // Always show the terminal
+                "panel": "shared" // Use a shared terminal panel
+            }
+        }
+    ]
+}
